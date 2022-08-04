@@ -1,10 +1,5 @@
-# Antisocial API
+# Simple Login API
 
-This project simulates a social media app. It's inspired on Twitter and has a lot of functionalities. This repo only contains the back-end side for this system. See also [Antisocial](https://github.com/diegosalasmartinez/antisocial) to get access to the front-end project.
-
-## Basic Usage
-
-You can visit the project on [Antisocial](https://diegosalas-antisocial.web.app).
 
 ## Instalation
 
@@ -32,6 +27,7 @@ DB_PASSWORD = password you created
 CONNECTION_URL = connection url you copied. Do not forget to change <password> with your the password you created
 JWT_SECRET = JWT Secret the app will use to manage authentication and authorization
 JWT_LIFETIME = JWT Lifetime the app will use. e.g. 30d
+PORT = port where your app'll be running
 ```
 
 8. Start the project
